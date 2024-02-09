@@ -1,4 +1,5 @@
 -- students and Examinations
+
 SELECT S.student_id,S.student_name,Su.subject_name, count(E.subject_name) as attended_exams
 FROM Students S
 JOIN subjects Su
